@@ -22,7 +22,7 @@ public class WelcomeController {
 		welcomeMessage.add("Strong man");
 		
 		Table table = new Table();
-		table.setName("Dupa");
+		table.setName("stol");
 		table.setSurname("biskupa");
 		
 		return new ResponseEntity(table, HttpStatus.OK);
