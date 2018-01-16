@@ -22,8 +22,8 @@ public class WelcomeController {
 		welcomeMessage.add("Strong man");
 		
 		Table table = new Table();
-		table.setName("stol");
-		table.setSurname("stolowy");
+		table.setName("Dupa");
+		table.setSurname("biskupa");
 		
 		return new ResponseEntity(table, HttpStatus.OK);
 	}
